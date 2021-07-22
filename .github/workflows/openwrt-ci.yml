@@ -1,4 +1,4 @@
-# 
+#
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 # Copyright (C) 2019 P3TERX
@@ -9,9 +9,9 @@ name: OpenWrt-CI
 
 on:
   schedule:
-    - cron: 0 20 * * *
+    # - cron: 0 20 * * *
   release:
-    types: [published]
+    # types: [published]
 
 jobs:
 
@@ -97,7 +97,7 @@ jobs:
         with:
           name: OpenWrt_firmware
           path: ./bin/targets/
-  
+
 
       - name: Upload release asset
         if: github.event == 'release'
