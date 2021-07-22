@@ -5,7 +5,7 @@
 #
 # Copyright (C) 2020 KFERMercer
 #
-name: OpenWrt-CI fro Phicomm K3
+name: OpenWrt-CI for Phicomm K3
 
 on:
   paths:
