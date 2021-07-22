@@ -8,9 +8,10 @@
 name: OpenWrt-CI for Phicomm K3
 
 on:
-  paths:
-  - k3.config
-  - target/linux/bcm53xx/Makefile
+  push:
+    paths:
+    - k3.config
+    - target/linux/bcm53xx/Makefile
   release:
     types: [published]
 
