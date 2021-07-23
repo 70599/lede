@@ -101,7 +101,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: OpenWrt_firmware
-        path: ./bin/targets/
+        path: ./bin/targets/bcm53xx/generic/openwrt-bcm53xx-generic-phicomm_k3-squashfs.trx
 
 
     - name: Upload release asset
