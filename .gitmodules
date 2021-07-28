@@ -4,3 +4,6 @@
 [submodule "package/yichya/openwrt-xray"]
 	path = package/yichya/openwrt-xray
 	url = https://github.com/yichya/openwrt-xray.git
+[submodule "package/honwen/luci-app-xray"]
+	path = package/honwen/luci-app-xray
+	url = https://github.com/honwen/luci-app-xray.git
